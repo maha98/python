@@ -1,10 +1,9 @@
-let=raw_input()
+l=input()
 vowel=("a","e","i","o","u")
-if(let>="a" and let<="z" or let>="A" and let<="z"):
-  if let in vowel:
+if(l>="a" and l<="z" or l>="A" and l<="z"):
+  if l in vowel:
     print("Vowel")
   else:
     print("Consonant")
 else:
-  print("Invalid")    
- 
+  print("invalid")  
